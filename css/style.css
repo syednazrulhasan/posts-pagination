@@ -1,0 +1,22 @@
+.styled-button { background-color: #cfaa41; color: #ffffff !important; font-weight: 400; line-height: 34px; text-align: center; display: inline-block; margin-top:20px;
+	width:150px; font-size: 15px; position: relative;
+}
+.styled-button:hover {color:#fff !important; background-color: #cfaa41;}
+.styled-button.next-page { float: right; right: 0;}
+.prev-page::before { border-top: 17px solid #FFF; border-bottom: 17px solid #FFF; border-right: 9px solid #cfaa41;}
+.prev-page::before { content: ''; height: 0; width: 0; left: 0px; position: absolute; z-index: 10; }
+.next-page::after { border-top: 17px solid #FFF; border-bottom: 17px solid #FFF; border-left: 9px solid #cfaa41;}
+.next-page::after { content: ''; height: 0; width: 0; right: 0px; position: absolute;}
+
+mark, ins {
+    background: #007acc;
+    color: #fff;
+    padding: 0.125em 0.25em;
+    text-decoration: none;
+}
+#inads {float: right;}
+
+@media (max-width: 480px) {
+.styled-button {	
+	width:140px;
+}
